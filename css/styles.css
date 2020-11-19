@@ -1,0 +1,973 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color:  rgb(251, 246, 237);
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+
+#IITHLogo{
+  padding-top: 0px;
+  padding-right: 0%;
+  margin-right: 0;
+}
+
+#IITWebsite{
+  position: absolute;
+  right: 5%;
+}
+
+#Heading {
+  position: relative;
+  padding-bottom: 2%;
+  padding-left: 10px;
+}
+
+
+
+.fixfont{
+  font-family: "Poppins", sans-serif;
+}
+
+h1{
+  color: #000;
+  padding-top: 50p;
+  font-weight: bold;
+}
+
+.navbar{
+  box-shadow: 0px 3px 5px 0px rgba(219,219,219,1);
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: -15px;
+  font-size: 1.2em;
+}
+#nav-list a {
+  color:#072C55;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid#072C55;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 35px;
+}
+
+#carouselExampleIndicators .carousel-item {
+  width: 100%;
+  height: 125vh;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-item p {
+  font-weight: bold;
+}
+
+.full-width-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;  
+  margin-left: -50vw;
+}
+
+.full-width-image img {
+ width: 100%;
+}
+
+#small {
+  display: none !important;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 0px;
+  background-color: #170f56;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 15px;
+}
+
+.social .fa{
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom:20px;
+	font-size: 30px;
+  transition: .9s;
+  color: whitesmoke;
+}
+
+.social .fa:hover{
+	transition: 1s;
+	transform: scale(1.1);
+	color: orange;
+}
+
+h2{
+  padding-right: 20px;
+}
+
+.sidebar-section {
+  margin-bottom: 2rem;
+  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  padding-top: 10px;
+}
+.sidebar h5 {
+  margin-bottom: 1rem;
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+}
+.sidebar h5 span {
+  font-weight: bolder;
+  background-color: rgb(251, 246, 237);
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding: 0px 15px 0 15px;
+  text-align: center;
+  font-size: 3vh;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: rgb(255, 110, 57);
+}
+.sidebar ul {
+  font-weight: bolder;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+}
+.sidebar ul li a {
+  border-bottom: 1px solid #f6f6f6;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: none;
+}
+
+#myCarousel{
+  box-shadow: 0 0 20px orange;
+  margin-bottom: 25px;
+}
+
+#menu-tile, #specials-tile, #team-tile {
+  height: 240px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+#menu-tile:hover, #specials-tile:hover, #team-tile:hover {
+  box-shadow: 0 5px 10px 5px #cccccc;
+}
+
+#menu-tile {
+  background: url('../images/AboutEBSB_2.png') no-repeat;
+  background-position: center;
+}
+
+#specials-tile {
+  background: url('../images/Lohri_Celebrations2_Fire.jpeg') no-repeat;
+  background-position: center;
+}
+
+#team-tile {
+  background: url('../images/Team.png') no-repeat;
+  background-position: center;
+}
+
+#menu-tile span, #specials-tile span, #team-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+h4{
+  margin-top: 3%;
+}
+
+#Modi{
+  padding-top: 5%; 
+  padding-left: 0%; 
+  padding-right: 0%; 
+  padding-bottom: 3%;
+}
+
+#EventsTop{
+  font-size: 3em;
+}
+
+#EBSB_Day1{
+  height: 240px;
+  width: 100%;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/EBSB_Day1_resized.jpeg') no-repeat;
+  background-position: center;
+}
+
+#EBSB_Day2{
+  height: 240px;
+  width: 100%;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/EBSB_Day2_resized.jpeg') no-repeat;
+  background-position: center;
+}
+
+#EBSB_Day3{
+  height: 240px;
+  width: 100%;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/EBSB_Day3_resized.jpeg') no-repeat;
+  background-position: center;
+}
+
+#Lohri1{
+  height: 240px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Lohri_Celebrations1_resized.jpeg') no-repeat;
+  background-position: center;
+}
+
+#Lohri2{
+  height: 240px;
+  width: 65%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Lohri_Celebrations2_resized3.jpeg') no-repeat;
+  background-position: center;
+}
+
+#Sankranthi1{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Sankranthi1_resized.jpeg') no-repeat;
+  background-position: center;
+}
+
+#Sankranthi2{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Sankranthi2_resized.jpeg') no-repeat;
+  background-position: center;
+}
+
+#Sankranthi3{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Sankranthi3_resized.jpeg') no-repeat;
+  background-position: center;
+}
+
+#Inauguration1{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Inauguration1_resized.png') no-repeat;
+  background-position: center;
+}
+
+#Inauguration2{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Inauguration2_resized.png') no-repeat;
+  background-position: center;
+}
+
+#Inauguration3{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Inauguration3_resized.png') no-repeat;
+  background-position: center;
+}
+
+
+#EthnicDay1{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Ethnic_Day1_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#EthnicDay2{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Ethnic_Day2_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#EthnicDay3{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Ethnic_Day3_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#Village1{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Gonglur_Village1_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#Village2{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Gonglur_Village2_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#Village3{
+  height: 240px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Gonglur_Village3_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#Maam{
+  height: 250px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Rajalakshmi_Ma\'am_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#Sir{
+  height: 250px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/AbhishekKumar_Sir_resized.jpg') no-repeat;
+  background-position: center;
+}
+
+#Events1{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Event1.png') no-repeat;
+  background-position: center;
+}
+
+#Events2{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Event2.png') no-repeat;
+  background-position: center;
+}
+
+#Events3{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Event3.png') no-repeat;
+  background-position: center;
+}
+
+#Content1{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Content1.png') no-repeat;
+  background-position: center;
+}
+
+#Content2{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Content2.png') no-repeat;
+  background-position: center;
+}
+
+#Content3{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Content3.png') no-repeat;
+  background-position: center;
+}
+
+#Digital1{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Digital1.png') no-repeat;
+  background-position: center;
+}
+
+#Digital2{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Digital2.png') no-repeat;
+  background-position: center;
+}
+
+#Digital3{
+  height: 250px;
+  width: 100%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Digital3.png') no-repeat;
+  background-position: center;
+}
+
+#Overall{
+  height: 360px;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Overall_original.png') no-repeat;
+}
+
+#Web{
+  height: 360px;
+  width: 30%;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+  background: url('../images/Web_original.png') no-repeat;
+}
+
+.description{
+  font-size: 1.5em;
+  padding-bottom: 5%;
+}
+
+#upcomingEvents{
+  height: 300px;
+  width: 50%;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 25%;
+
+}
+
+.carousel-caption {
+	left: 12%;
+  right: auto;
+  padding:1vh 2vh;
+  bottom: 50%;
+}
+
+.Event_Headings{
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.sidebar{
+  padding-top: 20%;
+}
+
+#thetop{
+  padding-top: 10%;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  #small {
+    display: none !important;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #logo-img {
+    background: url('EBSB_Logo_Medium.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 0px 5px 5px 0;
+  }
+  /* End Header */
+
+  #Heading {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  #IITHLogo{
+    padding-left: 380px;
+  }
+  
+  .sidebar-section{
+    padding-top: 240px;
+  }
+
+  .carousel-caption {
+    left: 8%;
+    right: auto;
+    padding:1vh 2vh;
+    bottom: 55%;
+    font-weight: bold;
+  }
+
+  #large{
+    padding-top: 6%;
+  }
+  .sidebar{
+    padding-top: 20%;
+  }
+
+  #thetop{
+    padding-top: 13%;
+  }
+
+  #nav-list {
+    padding-bottom: auto;
+  }
+
+ 
+}
+
+/********** Small devices only **********/
+@media (min-width: 769px) and (max-width: 991px) {
+
+  #small {
+    display: none !important;
+  }
+  #large{
+    padding-top: 7%;
+  }
+
+  .sidebar{
+    padding-top: 0%;
+  }
+
+  #thetop{
+    padding-top: 15%;
+  }
+
+  #Heading{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 0%;
+    padding-right: 25%;
+  }
+
+  #nav-list {
+    margin-top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #nav-list a {
+    padding-left: 0px;
+    margin-left: 0;
+    font-size: 0.8em;
+    color:#072C55;
+    text-align: center;
+  }
+
+  #team{
+    padding-left: 26%;
+    padding-right: 26%;
+  }
+
+  .carousel-caption {
+    left: 10%;
+    right: auto;
+    padding:1vh 2vh;
+    bottom: 50%;
+    font-weight: bold;
+  }
+
+  #Overall, #Web{
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  #logo-img{display:none;}
+
+  #EventsTop{
+    font-size: 2.75em;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 768px) {
+
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+  .navbar-brand p { 
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { 
+    height: 20px;
+  }
+
+  #collapsable-nav a { 
+    font-size: 0.9em;
+    border-bottom: 1px solid #e7e7e7;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+   #large{
+     padding-top: 14%;
+   }
+
+   .sidebar{
+    padding-top: 0px;
+   }
+
+   #thetop{
+    padding-top:20%;
+  }
+  
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; 
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+ 
+  #menu-tile, #specials-tile, #team-tile, #EBSB_Day1, #EBSB_Day2, #EBSB_Day3, #Lohri1, #Lohri2, #Sankranthi1, #Sankranthi2, #Sankranthi3, #Inauguration1, #Inauguration2, #Inauguration3, #EthnicDay1, #EthnicDay2, #EthnicDay3, #Village1, #Village2, #Village3,
+  #Maam, #Sir, #Overall, #Events1, #Events2, #Events3, #Content1, #Content2, #Content3, #Digital1, #Digital2, #Digital3, #Web{
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+
+  #Heading{
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .navbar-header button.navbar-toggle {
+   clear: both;
+   margin-top: -7%;
+ }
+ #logo-img{
+   padding-left: 10px;
+   padding-top: 3px;
+ }
+
+    .carousel-caption {
+      left: 9%;
+      right: auto;
+      padding:1vh 2vh;
+      bottom: 45%;
+      font-weight: bold;
+    }
+
+
+  #EventsTop{
+    font-size: 2.5em;
+  }
+
+}
+
+  
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  .navbar-brand h1 { 
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  
+  #menu-tile, #specials-tile, #team-tile, #EBSB_Day1, #EBSB_Day2, #EBSB_Day3, #Lohri1, #Lohri2, #Sankranthi1, #Sankranthi2, #Sankranthi3, #Inauguration1, #Inauguration2, #Inauguration3, #EthnicDay1, #EthnicDay2, #EthnicDay3, #Village1, #Village2, #Village3,
+  #Maam, #Sir, #Overall, #Events1, #Events2, #Events3, #Content1, #Content2, #Content3, #Digital1, #Digital2, #Digital3, #Web{
+    width: 250px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+  #Heading{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 0%;
+    }
+
+  .carousel-caption {
+    left: 12%;
+    right: auto;
+    padding:1vh 2vh;
+    bottom: 30%;
+    font-weight: bold;
+  }
+
+  #large{
+    padding-top: 12%;
+  }
+
+  .sidebar{
+    padding-top: 0px;
+  }
+
+  #thetop{
+    padding-top: 50%;
+    margin-left: auto;
+  
+  }
+
+  .panel-footer{
+    width: 100%;
+  }
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; 
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+
+  /*#Heading{display:none;}*/
+  #logo-img{display: none;}
+
+  #logo-img{
+    padding-left: 15%;
+  }
+
+ #Heading{
+   padding-left: 10px;
+   padding-top: 7px;
+ }
+ .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 7%;
+}
+  
+  #Modi{
+    padding-top: 10%;
+  }
+
+  #EventsTop{
+    font-size: 2em;
+  }
+  
+}
+
+
+
